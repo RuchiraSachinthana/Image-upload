@@ -73,6 +73,8 @@ if (!empty($errors)) {
 
 <?php 
 
+//show preview image
+
 if ($file_uploaded){
 	echo "<h3>File uploaded sucessfuly!</h3>";
 	echo '<img src="'.$upload_to . $file_name . '" style= "height : 200px" >';
